@@ -1,0 +1,514 @@
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/bootstrap.min.css"/>
+        <link rel="stylesheet" href="css/my_style.css"/>
+        <link rel="stylesheet" href="../team_profile/css/my_style.css"/>
+        <script src="js/jquery-3.3.1.min (1).js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+        <script src="js/responsiv.js"></script>
+        </head>
+        <body class="container-fluid">
+            <section class="row form_wizard">
+                <div class="col-lg" style="padding: 0px">
+                    <header class="container-fluid">
+                        <div class="progress">
+                            <div class="progress-bar progress-bar-animated">
+                                
+                            </div>
+                        </div>
+                        <div class="row mobile_label_steps_display">
+                            <div class="col-lg item">
+                                <em>
+                                    Login
+                                </em>
+                            </div>
+                            <div class="col-lg item" style="display: none">
+                                <em>
+                                    Billing
+                                </em>
+                            </div>
+                            <div class="col-lg item" style="display: none">
+                                <em>
+                                    Shipping
+                                </em>
+                            </div>
+                            <div class="col-lg item" style="display: none">
+                                <em>
+                                    Payement
+                                </em>
+                            </div>
+                            <div class="col-lg item" style="display: none">
+                                <em>
+                                    Order Review
+                                </em>
+                            </div>
+                        </div>
+                        <div class="row justify-content-between steps_liste_view">
+                            <div class="item col loading">
+                                <div class="label">
+                                    <em>
+                                        Login
+                                    </em>
+                                </div>
+                                <div class="icon">
+                                    <span>
+                                        1
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item col disable">
+                                <div class="label">
+                                    <em>
+                                        Billing
+                                    </em>
+                                </div>
+                                <div class="icon">
+                                    <span>
+                                        2
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item col disable">
+                                <div class="label">
+                                    <em>
+                                        Shipping
+                                    </em>
+                                </div>
+                                <div class="icon">
+                                    <span>
+                                        3
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item col disable">
+                                <div class="label">
+                                    <em>
+                                        Payement
+                                    </em>
+                                </div>
+                                <div class="icon">
+                                    <span>
+                                        4
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="item col disable">
+                                <div class="label">
+                                    <em>
+                                        Order Review
+                                    </em>
+                                </div>
+                                <div class="icon">
+                                    <span>
+                                        5
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <section class="container-fluid">
+                        <div>
+                            <form>
+                                <!-- form login item -->
+                                <div class="form_item">
+                                    <div class="row desc">
+                                        <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Username*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                        <div class="col-lg">
+                                            <label>
+                                                E-mail *
+                                            </label>
+                                            <input type="password" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Password*
+                                            </label>
+                                            <input type="password" class="form-control"/>
+                                        </div>
+                                        <div class="col-lg">
+                                            <label>
+                                                Verif password*
+                                            </label>
+                                            <input type="password" class="form-control"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- form billing item -->
+                                <div class="form_item" style="display: none">
+                                    <div class="row desc">
+                                        <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                First name*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                        <div class="col-lg">
+                                            <label>
+                                                Last name*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Company name
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Country
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Street adress
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Town / City*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                State / County*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Postcode / ZIP*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Phone*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                E-mail adress*
+                                            </label>
+                                            <input type="text" class="form-control"/>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- form shiping item -->
+                                <div class="form_item" style="display: none">
+                                    <div class="row desc">
+                                        <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <label>
+                                                Order notes*
+                                            </label>
+                                            <textarea class="form-control" placeholder="Note about your order, e.g. special notes delivery."></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- form payement info item -->
+                                <div class="form_item form_payement_info_item" style="display: none">
+                                    <div class="row desc">
+                                        <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <table>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Product
+                                                        </td>
+                                                        <td>
+                                                            Total
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="liste_product">
+                                                    <tr class="item">
+                                                        <td>
+                                                            <div class="row justify-content-center">
+                                                                <div class="icon">
+                                                                    <img src="img/Capture d’écran de 2019-04-27 12-45-39.png"/>
+                                                                </div>
+                                                                <div class="desc">
+                                                                    <em class="product_name">
+                                                                        Flying Ninja
+                                                                    </em>
+                                                                    <span class="qte"> 
+                                                                        x 2
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <span class="total_price">
+                                                                $12.00
+                                                            </span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Subtotal	
+                                                        </td>
+                                                        <td>
+                                                            $12.00
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Shipping	
+                                                        </td>
+                                                        <td>
+                                                            Free shipping
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Total	
+                                                        </td>
+                                                        <td>
+                                                            $12.00
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="row" style="margin-top: 50px">
+                                        <div class="col-lg">
+                                            <input type="radio"/>
+                                            <label>
+                                                 Direct bank transfer
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <input type="radio"/>
+                                            <label>
+                                                  Cash on delivery
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <hr/>
+                                    <div class="row">
+                                        <div class="col-lg">
+                                            <input type="checkbox"/>
+                                            <label>
+                                                 I’ve read and accept the 
+                                                 <a href="">terms & conditions *</a>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- form order review item -->
+                                <div class="form_item form_order_review_item" style="display: none">
+                                    <div class="row desc">
+                                        <div class="col-lg">
+                                            <p>
+                                                If you have shopped with us before, please enter your details in the boxes below. If you are a new customer, please proceed to the Billing & Shipping section.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="row shop_detail">
+                                        <div class="col-lg">
+                                        <table>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Product
+                                                        </td>
+                                                        <td>
+                                                            Total
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <tbody class="liste_product">
+                                                    <tr class="item">
+                                                        <td>
+                                                            <div class="row justify-content-center">
+                                                                <div class="icon">
+                                                                    <img src="img/Capture d’écran de 2019-04-27 12-45-39.png"/>
+                                                                </div>
+                                                                <div class="desc">
+                                                                    <em class="product_name">
+                                                                        Flying Ninja
+                                                                    </em>
+                                                                    <span class="qte"> 
+                                                                        x 2
+                                                                    </span>
+                                                                </div>
+                                                            </div>
+                                                        </td>
+                                                        <td>
+                                                            <span class="total_price">
+                                                                $12.00
+                                                            </span>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Subtotal	
+                                                        </td>
+                                                        <td>
+                                                            $12.00
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Shipping	
+                                                        </td>
+                                                        <td>
+                                                            Free shipping
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                                <thead>
+                                                    <tr>
+                                                        <td>
+                                                            Total	
+                                                        </td>
+                                                        <td>
+                                                            $12.00
+                                                        </td>
+                                                    </tr>
+                                                </thead>
+                                        </table>
+                                        </div>
+                                    </div>
+                                    <div class="row customer_details" style="margin-top: 50px">
+                                        <div class="col-lg">
+                                            <table class="table table-striped" style="text-align: center"> 
+                                                <tr>
+                                                    <td style="font-weight: bold">
+                                                        Email:
+                                                    </td>
+                                                    <td>
+                                                        box-mail@domain.com
+                                                    </td>
+                                                </tr>
+                                                <tr>
+                                                    <td style="font-weight: bold">
+                                                        Phone:
+                                                    </td>
+                                                    <td>
+                                                        +(216) 45 47 00 445
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="row user_adress">
+                                        <div class="col-lg">
+                                            <strong>
+                                                Billing Address
+                                            </strong>
+                                            <p>
+                                                sdsds dsdsds
+                                                dsdsdsd
+                                                dsdsdsd
+                                                1455
+                                                sssd, sdss Tunisia
+                                            </p>
+                                        </div>
+                                        <div class="col-lg">
+                                            <strong>
+                                                Shipping Address
+                                            </strong>
+                                            <p>
+                                                sdsds dsdsds
+                                                dsdsdsd
+                                                dsdsdsd
+                                                1455
+                                                sssd, sdss Tunisia
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                            <footer class="container-fluid">
+                                <div class="row justify-content-end">
+                                    <div>
+                                    <input type="button" value="Previous" class="btn btn_pre"/>
+                                    <input type="button" value="Next" class="btn btn_nxt"/>
+                                    </div>
+                                </div>
+                            </footer>
+                        </div>
+                    </section>
+                </div>
+            </section>
+        </body>
+</html>
